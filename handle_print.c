@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * handle_print - Prints an argument based on its type
  * @fmt: Formatted string in which to print the argument.
@@ -11,9 +12,14 @@
  * @size: Size specifier
  *
  * Return: 1 or 2;
+<<<<<<< HEAD
  */
+=======
+*/
+
+>>>>>>> 1c58b27b2b89cfae2a51f1aadb5fbfd857f03e37
 int handle_print(const char *fmt, int *ind, va_list list, char buffer[],
-	int flags, int width, int precision, int size)
+		int flags, int width, int precision, int size)
 {
 	int i, unknow_len = 0, printed_chars = -1;
 	fmt_t fmt_types[] =  {
