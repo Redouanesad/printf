@@ -12,12 +12,7 @@
  * @size: Size specifier
  *
  * Return: 1 or 2;
-<<<<<<< HEAD
  */
-=======
-*/
-
->>>>>>> 1c58b27b2b89cfae2a51f1aadb5fbfd857f03e37
 int handle_print(const char *fmt, int *ind, va_list list, char buffer[],
 		int flags, int width, int precision, int size)
 {
