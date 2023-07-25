@@ -131,7 +131,7 @@ int print_int(va_list types, char buffer[], int flags,
 
 	i++;
 
-	return (write(is_negative, i, buffer, flags, width, precision, size));
+	return (write_number(is_negative, i, buffer, flags, width, precision, size));
 }
 /**
  * print_binary - Prints an unsigned number
