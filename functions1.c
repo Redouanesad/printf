@@ -66,7 +66,7 @@ int print_octal(va_list types, char buffer[], int flags,
 	}
 
 	if (flags & F_HASH && init_num != 0)
-		buffer[i--] '0';
+		buffer[i--] = '0';
 
 	i++;
 
